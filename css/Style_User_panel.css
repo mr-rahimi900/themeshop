@@ -1,0 +1,895 @@
+.vertical_menu_User_panel {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 13px 0 0 13px;
+    box-shadow: var(--Box_Shadow_Main);
+    margin: 10px 0;
+}
+
+.vertical_menu_User_panel_Body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 535px;
+}
+
+.vertical_menu_User_panel_Body::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+/* Track */
+
+.vertical_menu_User_panel_Body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.vertical_menu_User_panel_Body::-webkit-scrollbar-thumb {
+    background: var(--Color_Main);
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.vertical_menu_User_panel_Body::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+.Top_Information_User_Panel {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #efefef;
+}
+
+.Img_Profile_User_Panel {
+    width: 80px;
+    height: 80px;
+    border-radius: 13px;
+    overflow: hidden;
+    box-shadow: var(--Box_Shadow_Main);
+}
+
+.Img_Profile_User_Panel img {
+    width: 100%;
+    height: 100%;
+}
+
+.Part_Text_name_User {
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.Text_name_User {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: iransans;
+    color: var(--Color_Title_text);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Item_vertical_menu_User_panel {
+    display: flex;
+    align-items: center;
+    padding: 0.86rem;
+    cursor: pointer;
+    border-radius: 13px 0 0 13px;
+}
+
+.Item_vertical_menu_User_panel:hover {
+    background-color: #efefef;
+}
+
+.Item_vertical_menu_User_panel:hover .Link_Item_vertical_menu_User_panel {
+    color: var(--Color_Main);
+}
+
+.Items_vertical_menu_User_panel {
+    list-style-type: none;
+}
+
+.Link_Item_vertical_menu_User_panel {
+    color: var(--Color_Title_text);
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.Link_Item_vertical_menu_User_panel:hover {
+    color: var(--Color_Title_text);
+}
+
+.Information_Box_top_part_1 {
+    border-radius: 13px;
+    margin-top: 10px;
+    width: 100%;
+    height: 168px;
+    box-shadow: var(--Box_Shadow_Main);
+    background: linear-gradient(45deg, rgb(31, 38, 107) 0%, rgb(128, 192, 255) 85%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Information_Box_top_part_2 {
+    border-radius: 13px;
+    margin-top: 10px;
+    width: 100%;
+    height: 168px;
+    box-shadow: var(--Box_Shadow_Main);
+    background: linear-gradient(45deg, rgb(255, 154, 72) 0%, rgb(232, 26, 134) 85%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Information_Box_top_part_3 {
+    border-radius: 13px;
+    margin-top: 10px;
+    width: 100%;
+    height: 168px;
+    box-shadow: var(--Box_Shadow_Main);
+    background: linear-gradient(45deg, rgb(247, 211, 56) 0%, rgb(241, 179, 31) 85%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Color_Style_Icon {
+    fill: #fff;
+    margin: 25px 0 10px 0;
+}
+
+.Text_Color_Style {
+    color: #fff;
+    font-weight: 900;
+    margin-top: 25px;
+}
+
+.Text_Counter_Color_Style {
+    color: #fff;
+}
+
+.Active_User_panel {
+    background-color: #efefef;
+    border-radius: 13px 0 0 13px;
+}
+
+.Active_User_panel_text {
+    color: var(--Color_Main);
+}
+
+.Box_Information_panel_User {
+    background-color: #fff;
+    border-radius: 13px;
+    box-shadow: var(--Box_Shadow_Main);
+    padding: 1rem;
+    margin: 20px 0;
+}
+
+.Body_Box_Information_panel_User {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Text_question_Information_panel_User {
+    font-size: 14px;
+    color: var(--Color_text);
+}
+
+.Text_Answer_Information_panel_User {
+    font-size: 13px;
+    color: var(--Color_Title_text);
+    font-weight: 900;
+}
+
+.IMG_Navbar_HIdden {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.navbar-expand-md .navbar-collapse {
+    align-items: flex-end;
+}
+
+.List_Menu_Navbar_header_bot {
+    margin: 0;
+}
+
+.navbar_expand_md_Menu {
+    display: none;
+}
+
+.img_Banner_User_panel {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.img_Banner_User_panel img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* End_USer_panel */
+
+
+/* Information_User_Panel_Edit */
+
+.Box_Edit_Information_panel_User {
+    background-color: #fff;
+    border-radius: 13px;
+    box-shadow: var(--Box_Shadow_Main);
+    padding: 1rem;
+    margin: 10px 0;
+}
+
+.Part_Email_access_user_panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label_Inp_Page_user_panel,
+.label_Inp_Page_user_panel_Seller {
+    font-size: 13px;
+    color: #777777a6;
+}
+
+.label_Inp_Page_user_panel_Check {
+    font-size: 13px;
+    color: var(--Color_text);
+}
+
+.Inp_Page_user_panel:disabled {
+    background-color: #f9f9f9;
+    border: 1px solid #efefef;
+}
+
+.Part_label_Inp_Page_user_panel {
+    margin-bottom: 15px;
+}
+
+.Inp_Page_user_panel,
+.Inp_Page_user_panel_Seller {
+    height: 45px;
+    font-family: iransans;
+    font-size: 14px;
+}
+
+.Inp_Page_user_panel_Seller {
+    direction: ltr;
+}
+
+.Inp_Page_user_panel::placeholder,
+.Inp_Page_user_panel_Seller::placeholder {
+    font-size: 12px;
+}
+
+.Part_button_Save_info,
+.Part_button_Edit_info {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn_Save_info_User_panel {
+    background-color: var(--Color_Main);
+    color: #fff;
+    padding: 10px 40px;
+}
+
+.btn_Save_info_User_panel:hover {
+    color: #fff;
+}
+
+.btn_Edit_info_User_panel {
+    color: #fff;
+}
+
+.btn_Edit_info_User_panel:hover {
+    color: #fff;
+}
+
+.avatar-upload {
+    position: relative;
+}
+
+.avatar-edit {
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    top: 0px;
+}
+
+.imageUploadMenu {
+    display: none;
+}
+
+.Lanel_imageUploadMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all .2s ease-in-out;
+}
+
+.Lanel_imageUploadMenu:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+
+.avatar-preview {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-preview>div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text_area_Page_user_panel {
+    height: 100px !important;
+}
+
+.text_area_Page_user_panel:disabled {
+    background-color: #f9f9f9;
+    border: 1px solid #efefef;
+}
+
+
+/* End_Information_User_Panel_Edit */
+
+
+/* Change_password_UserPanel */
+
+.input_Page_user_panel {
+    height: 45px;
+}
+
+.input_Page_user_panel::placeholder {
+    font-size: 14px;
+}
+
+.title_header_rules {
+    font-weight: 900;
+}
+
+.password_Rules_Text.complete {
+    color: #5DB406;
+}
+
+.Part_Password_user_Panel {
+    position: relative;
+}
+
+.password_Rules_Text {
+    font-size: 13px;
+    color: var(--Color_text);
+}
+
+.Part_password_rules {
+    display: flex;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.togglePassword {
+    float: left;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.button_Change_Password {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.BTN_Change_Password {
+    background-color: var(--Color_Main);
+    color: #fff;
+}
+
+.BTN_Change_Password:hover {
+    background-color: var(--Color_Main);
+    color: #fff;
+}
+
+
+/* End_Change_password_UserPanel */
+
+
+/* Tickets_UserPanel */
+
+.title_badge_Header_Tickets_User_page {
+    color: var(--Color_text);
+}
+
+.Text_badge_Header_Tickets_User_page {
+    color: var(--Color_Title_text);
+}
+
+.part_badge_Tickets_User_page {
+    border: 1px solid #eaeaea;
+}
+
+.Body_Tickets_User_page {
+    margin-top: 10px;
+}
+
+.title_Body_Tickets_User_page {
+    font-size: 14px;
+    color: var(--Color_text);
+}
+
+.Text_Body_Tickets_User_page {
+    color: var(--Color_Title_text);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.Part_item_Tickets_User_page {
+    border-bottom: 1px solid #efefef;
+    margin: 10px 0;
+    padding-bottom: 15px;
+}
+
+.Part_item_Tickets_User_page:last-child {
+    border-bottom: none;
+}
+
+.button_Save_Tickets {
+    background-color: var(--Color_Main);
+    color: #fff;
+}
+
+.button_Save_Tickets:hover {
+    color: #fff;
+}
+
+.Icons_Mega_dashborad {
+    color: var(--Color_Title_text);
+}
+
+.nice-select {
+    float: right;
+    width: 100%;
+    display: flex;
+    border: 1px solid #bdbdbd;
+}
+
+.list {
+    width: 100%;
+}
+
+.nice-select .option {
+    text-align: right;
+}
+
+.send_ticket_user_panel {
+    background-color: var(--Color_Main);
+    color: #fff;
+}
+
+.send_ticket_user_panel:hover {
+    color: #fff;
+}
+
+.button_send_ticket_user_panel {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inp_Title_Tickets {
+    height: 42px;
+}
+
+.current {
+    font-size: 12px !important;
+}
+
+.Part_badge_Header_Tickets_User_page {
+    display: flex;
+}
+
+.Img_chat_Tickets_User {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.Img_chat_Tickets_User img {
+    width: 100%;
+    height: 100%;
+}
+
+.Body_chat_Tickets_User {
+    margin: 0 10px;
+    width: 100%;
+    background-color: #efefef;
+    padding: var(--Padding);
+    border-radius: 18px 18px 0 18px;
+}
+
+.Body_chat_Tickets_Support {
+    margin: 0 10px;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    padding: var(--Padding);
+    border-radius: 18px 18px 18px 0;
+}
+
+.title_badge_Header_Tickets_Chat_User_page {
+    font-size: 13px;
+    color: var(--Color_text);
+    margin: 0 5px;
+}
+
+.Text_badge_Header_Tickets_Chat_User_page {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--Color_Title_text);
+}
+
+.Part_chat_Tickets_user {
+    margin: 15px 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Part_chat_Tickets_Support {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.Text_Body_Tickets_Chat_User_page {
+    line-height: 32px;
+    font-family: iransans;
+}
+
+.button_Send_ticket_Chat_User_Panel {
+    background-color: var(--Color_Main);
+    color: #fff;
+}
+
+.Part_button_Send_ticket_Chat_User_Panel {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button_Send_ticket_Chat_User_Panel:hover {
+    background-color: var(--Color_Main);
+    color: #fff;
+}
+
+.scroll {
+    margin: 20px 0;
+    height: auto;
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+/* width */
+
+.scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+/* Track */
+
+.scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--Color_Main);
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.scroll::-webkit-scrollbar-thumb {
+    background: var(--Color_Main);
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.scroll::-webkit-scrollbar-thumb:hover {
+    background: var(--Color_Main);
+}
+
+
+/* End_Tickets_UserPanel */
+
+
+/* Wallet_UserPanel */
+
+.Part_Proposed_amounts_User_Panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Btn_Proposed_amounts_User_Panel {
+    border: 1px solid #ccc;
+    color: var(--Color_text);
+    box-shadow: none;
+    width: 200px;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.Btn_Proposed_amounts_User_Panel:hover {
+    border: 1px solid var(--Color_Main);
+    color: var(--Color_Main);
+    box-shadow: none;
+    font-size: 15px;
+}
+
+.btn-check:active+.Btn_Proposed_amounts_User_Panel,
+.btn-check:checked+.Btn_Proposed_amounts_User_Panel,
+.Btn_Proposed_amounts_User_Panel.active,
+.Btn_Proposed_amounts_User_Panel:active,
+.show>.Btn_Proposed_amounts_User_Panel.dropdown-toggle {
+    background-color: var(--Color_Main);
+    color: #fff;
+}
+
+.Text_Proposed_amounts {
+    font-size: 14px;
+    color: var(--Color_text);
+}
+
+.FormControlInputWallet {
+    font-family: iranYekan-Number;
+    height: 50px;
+}
+
+.FormControlInputWallet::placeholder {
+    font-family: iranYekan-Number;
+}
+
+.button_Account_recharge {
+    background-color: var(--Color_Main);
+    color: #fff;
+    height: 40px;
+    box-shadow: none;
+}
+
+.button_Account_report {
+    border: 1px solid var(--Color_Main);
+    color: var(--Color_Main);
+    height: 40px;
+    box-shadow: none;
+}
+
+.button_Account_report:hover {
+    background-color: var(--Color_Main);
+    color: #fff;
+}
+
+.button_Account_recharge:hover {
+    background-color: #fff;
+    border: 1px solid var(--Color_Main);
+    color: var(--Color_Main);
+}
+
+.Part_Btn_button_Account_user_panel {
+    display: flex;
+    margin-top: 40px;
+}
+
+.button_exit_modal {
+    background-color: #b30000;
+    color: #fff;
+}
+
+.button_exit_modal:hover {
+    background-color: #b30000;
+    color: #fff;
+}
+
+
+/* End_Wallet_UserPanel */
+
+
+/* Favorite_templates_UserPanel */
+
+.Part_Favorite_templates_UserPanel {
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    height: 110px;
+}
+
+.Img_templates_Favorite {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.Img_templates_Favorite img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Favorite_templates_UserPanel {
+    display: flex;
+    align-items: center;
+}
+
+.Name_templates_Favorite_templates_UserPanel {
+    font-size: 14px;
+    color: #3d3d3d;
+    font-weight: 900;
+    margin: 0 5px;
+}
+
+.Part_Favorite_templates_information_UserPanel {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.Part_Favorite_templates_info_UserPanel {
+    display: flex;
+    align-items: flex-end;
+}
+
+.icon_delete_Favorite_templates {
+    color: var(--Color_text);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.icon_delete_Favorite_templates_Fill {
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.Part_icon_delete_Favorite_templates {
+    padding: 5px 10px 0px 10px;
+    background-color: #fbfbfb;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+
+/* End_Favorite_templates_UserPanel */
+
+
+/* My_Theme_UserPanel */
+
+.Body_Card_My_Theme {
+    border-bottom: 1px solid #ccc;
+    margin: 15px 0 0 0;
+    padding-bottom: 17px;
+}
+
+.Body_Card_My_Theme:last-child {
+    border-bottom: none;
+}
+
+.Img_Banner_My_Theme {
+    width: 100%;
+    height: 120px;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.Img_Banner_My_Theme img {
+    width: 100%;
+    height: 100%;
+}
+
+.Name_Theme_Body_Card_My_Theme {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.Category_Body_Card_My_Theme {
+    color: var(--Color_Title_text);
+    font-size: 15px;
+}
+
+.Price_Off_Body_Card_My_Theme {
+    font-size: 14px;
+    color: var(--Color_text);
+}
+
+.Price_Body_Card_My_Theme {
+    font-size: 22px;
+}
+
+
+/* End_My_Theme_UserPanel */
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1200px) {
+    .Part_Proposed_amounts_User_Panel {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .hidden_md {
+        display: none;
+    }
+    .navbar_expand_md_Menu {
+        display: block;
+    }
+    .Part_password_rules {
+        margin-top: 20px;
+    }
+    .Img_Banner_My_Theme {
+        height: 210px;
+    }
+    .Name_Theme_Body_Card_My_Theme {
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 576px) {
+    .Btn_Proposed_amounts_User_Panel {
+        width: 100%;
+    }
+    .Part_Favorite_templates_UserPanel {
+        flex-direction: column;
+        height: auto;
+    }
+    .Part_Favorite_templates_information_UserPanel {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {}

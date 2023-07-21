@@ -1,0 +1,1765 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پنل کاربری</title>
+    <!-- icon WebSite -->
+    <link rel="shortcut icon" href="./Image/Logo/logo.png" type="image/x-icon">
+    <!-- Start Link Style -->
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./css/mdb.rtl.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/dropify.min.css">
+    <!-- CSS_Handwritten -->
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/Style_User_panel.css">
+</head>
+
+<body>
+    <!-- Start Overlay -->
+    <div class="overlay-themeshop"></div>
+    <!-- Start Overlay -->
+    <!-- Start Modal -->
+    <div class="modal fade px-4" id="openSearch" tabindex="-1" aria-labelledby="exampleModalLabel" aria-modal="true" role="dialog">
+      <div class="modal-dialog mx-auto">
+        <div class="modal-content modal-content-search-box">
+          <div class="modal-body madal-search-box-body">
+            <form class="modal-form-search-box" action="">
+              <input class="form-control modal-input-search" type="search" placeholder="جستجو در قالب ها...">
+              <button class="btn-search-icon-modal">
+                <i class="fal fa-search" title="جستجو کردن"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start Modal -->
+
+    <!-- Start Go To Up -->
+    <div class="progress-wrap active-progress">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path
+          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+          style="
+            transition: stroke-dashoffset 10ms linear 0s;
+            stroke-dasharray: 307.919;
+            stroke-dashoffset: 215.544;
+          "
+        ></path>
+      </svg>
+    </div>
+    <!-- End Go To Up -->
+    <header class="landing-header-small-part set-bg">
+      <div class="landing-header-bg"></div>
+      <section class="header_Top_small">
+        <div class="container">
+          <div class="row">
+            <!-- Part_Logo -->
+            <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12">
+              <div class="header-top-right">
+                <div class="Logo_Header">
+                  <a href="index.html">
+                    <img
+                      class="img-logo-header"
+                      src="./Image/Logo/logo.png"
+                      alt="Logo"
+                    />
+                  </a>
+                </div>
+                <ul class="box-action-btn-responsive-mobile">
+                  <li class="box-header-top-mobile-search">
+                    <div class="box_search_header_top_small">
+                      <form
+                        class="form_search_header_top_small"
+                        autocomplete="off"
+                      >
+                        <input
+                          id="search"
+                          type="search"
+                          required=""
+                          class="input_search_header_top_small"
+                          placeholder=""
+                        />
+                        <span class="caret_search_header_top_small"> </span>
+                      </form>
+                    </div>
+                  </li>
+                  <li class="box-hamburger-menu">
+                    <button class="button-header-top-mobile-cate">
+                      <i
+                        class="fal fa-bars btn-icon-hamburger-menu"
+                        title="دسته بندی"
+                      ></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xxl-7 col-xl-8 col-lg-8 hidden_md">
+              <section class="Navbar-header-top_small">
+                <div class="container px-0 auto_Width">
+                  <ul class="List_Menu_Navbar_header_bot">
+                    <li class="mx-1 d-flex align-items-center">
+                      <a class="Link-List-Menu-Navbar-header-top" href="#"
+                        >آخرین قالب ها</a
+                      >
+                    </li>
+                    <li class="mx-1 d-flex align-items-center">
+                      <a class="Link-List-Menu-Navbar-header-top" href="#"
+                        >قوانین سایت
+                      </a>
+                    </li>
+                    <li class="mx-1 d-flex align-items-center">
+                      <a class="Link-List-Menu-Navbar-header-top" href="#"
+                        >راهنمای خرید
+                      </a>
+                    </li>
+                    <li class="mx-1 d-flex align-items-center">
+                      <a class="Link-List-Menu-Navbar-header-top" href="#"
+                        >کسب درآمد
+                      </a>
+                    </li>
+                    <li class="mx-1 d-flex align-items-center">
+                      <a class="Link-List-Menu-Navbar-header-top" href="#"
+                        >مقالات سایت
+                      </a>
+                    </li>
+                    <li class="mx-1 d-flex align-items-center">
+                      <a class="Link-List-Menu-Navbar-header-top" href="#"
+                        >درباره ما
+                      </a>
+                    </li>
+                    <li class="mx-1 d-flex align-items-center">
+                      <a class="Link-List-Menu-Navbar-header-top" href="#"
+                        >تماس با ما
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+
+            <!-- Part_userArea -->
+            <div class="col-xxl-4 col-xl-3 col-lg-3 hidden_md col-sm-6 col-6">
+              <div class="Part-user-area-header">
+                <!-- <div class="box_search_header_top_small">
+                  <form class="form_search_header_top_small" autocomplete="off">
+                    <input
+                      id="search"
+                      type="search"
+                      required
+                      class="input_search_header_top_small"
+                      placeholder=""
+                    />
+                    <span class="caret_search_header_top_small"> </span>
+                  </form>
+                </div> -->
+                <div class="box-header-top-mobile-search">
+                  <button class="button-header-top-mobile-search" data-bs-toggle="modal" data-bs-target="#openSearch">
+                    <i class="fal fa-search btn-icon-mobile-search"></i>
+                  </button>
+
+                </div>
+                
+                <div class="part-log-out-header d-flex-center">
+                  <a
+                    href="register.html"
+                    class="btn-action-header btn-register-header d-flex-center"
+                  >
+                    <i class="fal fa-user mx-2" title="کاربر"></i>
+                    ورود / ثبت نام
+                  </a>
+                </div>
+                <div class="part-log-in-header">
+                  <a href="" class="btn-action-header btn-header-top-login">
+                    <figure class="d-flex-center">
+                      <figcaption>
+                        <p>mr-rahimi900</p>
+                      </figcaption>
+                      <img
+                        class="avator-img-log-in-header"
+                        src="Image/avatar-3.jpg"
+                        alt=""
+                      />
+                    </figure>
+                    <i class="fal fa-chevron-down icon-open-submenu-login"></i>
+                  </a>
+                  <div class="submenu-login">
+                    <div class="sub-menu-login-header submenu-item-login">
+                      <figure class="figure-profile-header-top">
+                        <img
+                          class="img-profile-header-top"
+                          src="Image/avatar-1.jpg"
+                          alt=""
+                        />
+                      </figure>
+                      <figcaption class="figcaption-profile-header-top">
+                        <span class="name-account-user-header-top"
+                          >نام و نام خانوادگی</span
+                        >
+                        <a href="" class="view-account-user-header-top"
+                          >مشاهده حساب کاربری<i class="bi bi-chevron-left"></i
+                        ></a>
+                      </figcaption>
+                    </div>
+                    <div class="sub-menu-login-body submenu-item-login"></div>
+                    <div class="sub-menu-login-footer submenu-item-login">
+                      <a href="#" class="submenu-link-logout">
+                        <i
+                          class="fal fa-sign-out-alt icon-out-submenu-logout"
+                          title="خروج"
+                        ></i>
+                        <span class="out-account-user-header-top"
+                          >خروج از حساب کاربری</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------------------------------------------------->
+      <div class="MegaMenu_Vertical">
+        <div class="Box_Click_Close_Menu">
+          <i class="bi bi-x icon-close-megamenu"></i>
+        </div>
+        <div class="part-header-megamenu-vertical">
+          <div class="logo-megamenu-vertical">
+            <a href="index.html">
+              <img src="./Image/Logo/logo.png" alt="Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="part-body-megamenu-vertical">
+          <div class="head-header-megamenu-vertical">
+            <h5 class="title-megamenu-vertical">دسته بندی قالب ها</h5>
+          </div>
+          <ul class="list-mega-menu-vertical-level-one">
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a
+                class="link-item-mega-menu-vertical-level-one has-submenu-megamenu-vertical-level-one"
+                href="#"
+              >
+                <img
+                  class="Icon_Menu_Navbar_header_bot"
+                  src="./Image/html-5.png"
+                />
+                <label>قالب html</label>
+                <button class="button-open-submenu-one">
+                  <i class="bi bi-plus icon-plus-megamenu"></i>
+                  <i class="bi bi-dash icon-minus-megamenu"></i>
+                </button>
+              </a>
+              <ul class="list-mega-menu-vertical-level-two">
+                <li class="list-item-mega-menu-vertical-level-two">
+                  <a
+                    class="link-item-mega-menu-vertical-level-two has-submenu-megamenu-vertical-level-two"
+                    href="#"
+                  >
+                    قالب تک منظوره
+                    <button class="button-open-submenu-two">
+                      <i class="bi bi-plus icon-plus-megamenu"></i>
+                      <i class="bi bi-dash icon-minus-megamenu"></i>
+                    </button>
+                  </a>
+                  <ul class="list-mega-menu-vertical-level-three">
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب شخصی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب فروشگاهی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب شرکتی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب رستوران
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-item-mega-menu-vertical-level-two">
+                  <a
+                    class="link-item-mega-menu-vertical-level-two has-submenu-megamenu-vertical-level-two"
+                    href="#"
+                  >
+                    قالب چند منظوره
+                    <button class="button-open-submenu-two">
+                      <i class="bi bi-plus icon-plus-megamenu"></i>
+                      <i class="bi bi-dash icon-minus-megamenu"></i>
+                    </button>
+                  </a>
+                  <ul class="list-mega-menu-vertical-level-three">
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب شخصی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب فروشگاهی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب شرکتی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب رستوران
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a
+                class="link-item-mega-menu-vertical-level-one has-submenu-megamenu-vertical-level-one"
+                href="#"
+              >
+                <img
+                  class="Icon_Menu_Navbar_header_bot"
+                  src="./Image/wordpress.png"
+                />
+                <label>قالب وردپرس</label>
+                <button class="button-open-submenu-one">
+                  <i class="bi bi-plus icon-plus-megamenu"></i>
+                  <i class="bi bi-dash icon-minus-megamenu"></i>
+                </button>
+              </a>
+
+              <ul class="list-mega-menu-vertical-level-two">
+                <li class="list-item-mega-menu-vertical-level-two">
+                  <a
+                    class="link-item-mega-menu-vertical-level-two has-submenu-megamenu-vertical-level-two"
+                    href="#"
+                  >
+                    قالب تک منظوره
+                    <button class="button-open-submenu-two">
+                      <i class="bi bi-plus icon-plus-megamenu"></i>
+                      <i class="bi bi-dash icon-minus-megamenu"></i>
+                    </button>
+                  </a>
+                  <ul class="list-mega-menu-vertical-level-three">
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب شخصی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب فروشگاهی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب شرکتی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب رستوران
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-item-mega-menu-vertical-level-two">
+                  <a
+                    class="link-item-mega-menu-vertical-level-two has-submenu-megamenu-vertical-level-two"
+                    href="#"
+                  >
+                    قالب چند منظوره
+                    <button class="button-open-submenu-two">
+                      <i class="bi bi-plus icon-plus-megamenu"></i>
+                      <i class="bi bi-dash icon-minus-megamenu"></i>
+                    </button>
+                  </a>
+                  <ul class="list-mega-menu-vertical-level-three">
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب شخصی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب فروشگاهی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب شرکتی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب رستوران
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a
+                class="link-item-mega-menu-vertical-level-one has-submenu-megamenu-vertical-level-one"
+                href="#"
+              >
+                <img
+                  class="Icon_Menu_Navbar_header_bot"
+                  src="./Image/wordpress.png"
+                />
+                <label>افزونه وردپرس</label>
+                <button class="button-open-submenu-one">
+                  <i class="bi bi-plus icon-plus-megamenu"></i>
+                  <i class="bi bi-dash icon-minus-megamenu"></i>
+                </button>
+              </a>
+
+              <ul class="list-mega-menu-vertical-level-two">
+                <li class="list-item-mega-menu-vertical-level-two">
+                  <a
+                    class="link-item-mega-menu-vertical-level-two has-submenu-megamenu-vertical-level-two"
+                    href="#"
+                  >
+                    افزونه 1
+                    <button class="button-open-submenu-two">
+                      <i class="bi bi-plus icon-plus-megamenu"></i>
+                      <i class="bi bi-dash icon-minus-megamenu"></i>
+                    </button>
+                  </a>
+                  <ul class="list-mega-menu-vertical-level-three">
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        افزونه 1-1
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        افزونه 2-1
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        افزونه 3-1
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        افزونه 4-1
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-item-mega-menu-vertical-level-two">
+                  <a
+                    class="link-item-mega-menu-vertical-level-two has-submenu-megamenu-vertical-level-two"
+                    href="#"
+                  >
+                    قالب چند منظوره
+                    <button class="button-open-submenu-two">
+                      <i class="bi bi-plus icon-plus-megamenu"></i>
+                      <i class="bi bi-dash icon-minus-megamenu"></i>
+                    </button>
+                  </a>
+                  <ul class="list-mega-menu-vertical-level-three">
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب شخصی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب فروشگاهی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب شرکتی
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        قالب رستوران
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a
+                class="link-item-mega-menu-vertical-level-one has-submenu-megamenu-vertical-level-one"
+                href="#"
+              >
+                <img
+                  class="Icon_Menu_Navbar_header_bot"
+                  src="./Image/javascript.png"
+                />
+                <label>اسکریپت</label>
+                <button class="button-open-submenu-one">
+                  <i class="bi bi-plus icon-plus-megamenu"></i>
+                  <i class="bi bi-dash icon-minus-megamenu"></i>
+                </button>
+              </a>
+
+              <ul class="list-mega-menu-vertical-level-two">
+                <li class="list-item-mega-menu-vertical-level-two">
+                  <a
+                    class="link-item-mega-menu-vertical-level-two has-submenu-megamenu-vertical-level-two"
+                    href="#"
+                  >
+                    اسکریپت 1
+                    <button class="button-open-submenu-two">
+                      <i class="bi bi-plus icon-plus-megamenu"></i>
+                      <i class="bi bi-dash icon-minus-megamenu"></i>
+                    </button>
+                  </a>
+                  <ul class="list-mega-menu-vertical-level-three">
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        اسکریپت 1-1
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        اسکریپت 2-1
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        اسکریپت 3-1
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-item-mega-menu-vertical-level-two">
+                  <a
+                    class="link-item-mega-menu-vertical-level-two has-submenu-megamenu-vertical-level-two"
+                    href="#"
+                  >
+                    اسکریپت 2
+                    <button class="button-open-submenu-two">
+                      <i class="bi bi-plus icon-plus-megamenu"></i>
+                      <i class="bi bi-dash icon-minus-megamenu"></i>
+                    </button>
+                  </a>
+                  <ul class="list-mega-menu-vertical-level-three">
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        اسکریپت 1-2
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        اسکریپت 2-2
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        اسکریپت 3-2
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a
+                class="link-item-mega-menu-vertical-level-one has-submenu-megamenu-vertical-level-one"
+                href="#"
+              >
+                <img
+                  class="Icon_Menu_Navbar_header_bot"
+                  src="./Image/joomla.png"
+                />
+                <label>قالب جوملا</label>
+                <button class="button-open-submenu-one">
+                  <i class="bi bi-plus icon-plus-megamenu"></i>
+                  <i class="bi bi-dash icon-minus-megamenu"></i>
+                </button>
+              </a>
+
+              <ul class="list-mega-menu-vertical-level-two">
+                <li class="list-item-mega-menu-vertical-level-two">
+                  <a
+                    class="link-item-mega-menu-vertical-level-two has-submenu-megamenu-vertical-level-two"
+                    href="#"
+                  >
+                    جوملا 1
+                    <button class="button-open-submenu-two">
+                      <i class="bi bi-plus icon-plus-megamenu"></i>
+                      <i class="bi bi-dash icon-minus-megamenu"></i>
+                    </button>
+                  </a>
+                  <ul class="list-mega-menu-vertical-level-three">
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        جوملا 1-1
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        جوملا 2-1
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        جوملا 3-1
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-item-mega-menu-vertical-level-two">
+                  <a
+                    class="link-item-mega-menu-vertical-level-two has-submenu-megamenu-vertical-level-two"
+                    href="#"
+                  >
+                    جوملا 2
+                    <button class="button-open-submenu-two">
+                      <i class="bi bi-plus icon-plus-megamenu"></i>
+                      <i class="bi bi-dash icon-minus-megamenu"></i>
+                    </button>
+                  </a>
+                  <ul class="list-mega-menu-vertical-level-three">
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        جوملا 1-2
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        جوملا 2-2
+                      </a>
+                    </li>
+                    <li class="list-item-mega-menu-vertical-level-three">
+                      <a
+                        href=""
+                        class="link-item-mega-menu-vertical-level-three"
+                      >
+                        جوملا 3-2
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a class="link-item-mega-menu-vertical-level-one" href="#">
+                قالب های رایگان
+              </a>
+            </li>
+          </ul>
+          <div class="head-header-megamenu-vertical">
+            <h5 class="title-megamenu-vertical">دسترسی سریع</h5>
+          </div>
+          <ul class="list-mega-menu-vertical-level-one">
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a class="link-item-mega-menu-vertical-level-one" href="Rules.html">
+                <i
+                  class="fal fa-chevron-left icon-arrow-left-mega-menu-vertical"
+                ></i>
+                قوانین سایت
+              </a>
+            </li>
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a class="link-item-mega-menu-vertical-level-one" href="#">
+                <i
+                  class="fal fa-chevron-left icon-arrow-left-mega-menu-vertical"
+                ></i>
+                راهنمای خرید</a
+              >
+            </li>
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a class="link-item-mega-menu-vertical-level-one" href="#">
+                <i
+                  class="fal fa-chevron-left icon-arrow-left-mega-menu-vertical"
+                ></i>
+                کسب درآمد</a
+              >
+            </li>
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a class="link-item-mega-menu-vertical-level-one" href="article.html">
+                <i
+                  class="fal fa-chevron-left icon-arrow-left-mega-menu-vertical"
+                ></i>
+                مقالات سایت</a
+              >
+            </li>
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a class="link-item-mega-menu-vertical-level-one" href="about.html">
+                <i
+                  class="fal fa-chevron-left icon-arrow-left-mega-menu-vertical"
+                ></i>
+                درباره ما</a
+              >
+            </li>
+            <li class="list-item-mega-menu-vertical-level-one">
+              <a class="link-item-mega-menu-vertical-level-one" href="ContactUS.html">
+                <i
+                  class="fal fa-chevron-left icon-arrow-left-mega-menu-vertical"
+                ></i>
+                تماس با ما</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-------------------------------------------------------------------->
+    </header>
+    <nav class="hidden_md">
+      <section class="Navbar-main Navbar-main-small">
+        <!-- Navbar -->
+        <div class="container auto_Width">
+          <div class="d-flex justify-content-between">
+            <!-- Collapsible wrapper -->
+            <ul class="List_Menu_Navbar_header_bot">
+              <li class="Item_List_Menu_Navbar_header_bot d-flex align-items-center Hover_IN_Show_megaMenu">
+                <a class="nav-link Link_List_Menu_Navbar_header_bot" href="#"><img class="Icon_Menu_Navbar_header_bot" src="./Image/html-5.png"/>قالب html</a>
+                <div class="Box_MegaMenu_header_bot">
+                  <div class="container">
+                   <div class="row row-cols-5">
+                    <div class="col">
+                      <ul class="List_MegaMenu_header_bot">
+                       <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         افزونه راکت</a>
+                         
+                        
+                        </li>
+                       <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                        رستوران</a>
+                        
+                      </li>
+                       <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                        قالب شرکتی</a>
+                        
+                        
+                    </li>
+                       <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                        قالب خبری</a>
+                      </li>
+                       <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                       قالب خبری</a>
+                        
+                      </li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                       <ul class="List_MegaMenu_header_bot">
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                          افزونه راکت</a>
+                          
+                         
+                         </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         رستوران</a>
+                         
+                       </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب شرکتی</a>
+                        
+                         
+                     </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب خبری</a>
+                      
+                       </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب خبری</a>
+                        
+                       </li>
+                       </ul>
+                     </div>
+                     <div class="col">
+                       <ul class="List_MegaMenu_header_bot">
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                          افزونه راکت</a>
+                         
+                         
+                         </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         رستوران</a>
+                         
+                       </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب شرکتی</a>
+                         
+                     </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب خبری</a>
+                      
+                       </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب خبری</a>
+                         
+                       </li>
+                       </ul>
+                     </div>
+                     <div class="col">
+                       <ul class="List_MegaMenu_header_bot">
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                          افزونه راکت</a>
+                          
+                         
+                         </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         رستوران</a>
+                         
+                       </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب شرکتی</a>
+                         
+                         
+                     </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب خبری</a>
+                         
+                      
+                       </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب خبری</a>
+                        
+                       </li>
+                       </ul>
+                      </div>
+                     <div class="col">
+                       <ul class="List_MegaMenu_header_bot">
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                          افزونه راکت</a>
+                         
+                         
+                         </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         رستوران</a>
+                         
+                       </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب شرکتی</a>
+                         
+                         
+                     </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب خبری</a>
+      
+                      
+                       </li>
+                        <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                      قالب خبری</a>
+                      
+                       </li>
+                       </ul>
+                      </div>
+                   </div>
+                  </div>
+                </div>
+              </li>
+              <li class="Item_List_Menu_Navbar_header_bot d-flex align-items-center Hover_IN_Show_megaMenu">
+                  <a class="Link_List_Menu_Navbar_header_bot" href="#"><img class="Icon_Menu_Navbar_header_bot" src="./Image/wordpress.png"/>قالب وردپرس</a>
+                  <div class="Box_MegaMenu_header_bot">
+                    <div class="container">
+                     <div class="row row-cols-5">
+                      <div class="col">
+                        <ul class="List_MegaMenu_header_bot">
+                         <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           افزونه راکت</a>
+                           
+                          
+                          </li>
+                         <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                          رستوران</a>
+                          
+                        </li>
+                         <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                          قالب شرکتی</a>
+                          
+                          
+                      </li>
+                         <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                          قالب خبری</a>
+                        </li>
+                         <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                         قالب خبری</a>
+                          
+                        </li>
+                        </ul>
+                      </div>
+                      <div class="col">
+                         <ul class="List_MegaMenu_header_bot">
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                            افزونه راکت</a>
+                            
+                           
+                           </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           رستوران</a>
+                           
+                         </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           قالب شرکتی</a>
+                          
+                           
+                       </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           قالب خبری</a>
+                        
+                         </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           قالب خبری</a>
+                          
+                         </li>
+                         </ul>
+                       </div>
+                       <div class="col">
+                         <ul class="List_MegaMenu_header_bot">
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                            افزونه راکت</a>
+                           
+                           
+                           </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           رستوران</a>
+                           
+                         </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           قالب شرکتی</a>
+                           
+                       </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           قالب خبری</a>
+                        
+                         </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           قالب خبری</a>
+                           
+                         </li>
+                         </ul>
+                       </div>
+                       <div class="col">
+                         <ul class="List_MegaMenu_header_bot">
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                            افزونه راکت</a>
+                            
+                           
+                           </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           رستوران</a>
+                           
+                         </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           قالب شرکتی</a>
+                           
+                           
+                       </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           قالب خبری</a>
+                           
+                        
+                         </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           قالب خبری</a>
+                          
+                         </li>
+                         </ul>
+                        </div>
+                       <div class="col">
+                         <ul class="List_MegaMenu_header_bot">
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                            افزونه راکت</a>
+                           
+                           
+                           </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           رستوران</a>
+                           
+                         </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           قالب شرکتی</a>
+                           
+                           
+                       </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                           قالب خبری</a>
+        
+                        
+                         </li>
+                          <li class="Item_MegaMenu_header_bot"><a class="Link_MegaMenu_header_bot" href="#">
+                        قالب خبری</a>
+                        
+                         </li>
+                         </ul>
+                        </div>
+                     </div>
+                    </div>
+                  </div>
+              </li>
+              <li class="Item_List_Menu_Navbar_header_bot dropdown d-flex align-items-center Hover_IN_Show_megaMenu">
+                <a class="nav-link Link_List_Menu_Navbar_header_bot" href="#"><img class="Icon_Menu_Navbar_header_bot" src="./Image/wordpress.png" />
+                  افزونه وردپرس
+                </a>
+                <ul class="List_dropdown_header_bot">
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 1</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 2</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 3</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 4</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 5</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 6</a></li>
+                 </ul>
+              </li>
+              <li class="Item_List_Menu_Navbar_header_bot dropdown d-flex align-items-center Hover_IN_Show_megaMenu">
+                <a class="nav-link Link_List_Menu_Navbar_header_bot" href="#"><img class="Icon_Menu_Navbar_header_bot" src="./Image/joomla.png"/>
+                  قالب جوملا
+                </a>
+                <ul class="List_dropdown_header_bot">
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 1</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 2</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 3</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 4</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 5</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 6</a></li>
+                 </ul>
+              </li>
+              <li
+                class="Item_List_Menu_Navbar_header_bot dropdown d-flex align-items-center Hover_IN_Show_megaMenu"
+              >
+                <a class="nav-link Link_List_Menu_Navbar_header_bot" href="#"
+                  ><img
+                    class="Icon_Menu_Navbar_header_bot"
+                    src="./Image/javascript.png"
+                  />
+                  اسکریپت
+                </a>
+                <ul class="List_dropdown_header_bot">
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 1</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 2</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 3</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 4</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 5</a></li>
+                  <li class="Item_dropdown_header_bot"><a class="Link_dropdown_header_bot" href="#">آیتم 6</a></li>
+                 </ul>
+              </li>
+              <li class="Item_List_Menu_Navbar_header_bot d-flex align-items-center">
+                <a class="nav-link Link_List_Menu_Navbar_header_bot" href="#">
+                  قالب رایگان
+                </a>
+              </li>
+            </ul>
+            <!-- Left links -->
+            <div class="box-action-navbar-main">
+              <a class="link-shopping-cart-navbar-main" href="#">
+                <i class="fal fa-shopping-bag btn-shopping-cart-navbar-main" title="سبد خرید">
+                  <span class="conter-shopping-cart-navbar-main">0</span>
+                </i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </nav>
+    <main>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light navbar_expand_md_Menu">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand mt-2 mt-lg-0" href="#">
+
+                        <img src="./Image/avatar-1.jpg" class="IMG_Navbar_HIdden" alt="MDB Logo" loading="lazy" />
+                    </a>
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+
+
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+        <div class="container-fluid">
+            <!-- Navbar Buttom Fix -->
+            <div class="navbar-bottom-fix">
+                <a href="index.html" class="bottom-fix-mobile-item"><i class="fal fa-user bottom-fix-mobile-icon"></i><span class="bottom-fix-mobile-item-title">پروفایل</span></a>
+                <button class="button-mobile-article bottom-fix-mobile-item">
+                <i class="fal fa-newspaper bottom-fix-mobile-icon"></i>
+                <span class="bottom-fix-mobile-item-title">مقالات</span>
+            </button>
+                <button class="button-mobile-shopping bottom-fix-mobile-item">
+                <i class="fal fa-shopping-cart bottom-fix-mobile-icon"></i><span class="bottom-fix-mobile-item-title">سبد خرید</span><sup class="bottom-fix-mobile-shopping-count">2</sup>
+            </button>
+                <a href="#" class="bottom-fix-mobile-item">
+                    <i class="fal fa-heart bottom-fix-mobile-icon"></i>
+                    <span class="bottom-fix-mobile-item-title">علاقه مندی</span>
+                    <sup class="bottom-fix-mobile-shopping-count">2</sup>
+                </a>
+                <a href="index.html" class="bottom-fix-mobile-item"><i class="fal fa-home bottom-fix-mobile-icon"></i><span class="bottom-fix-mobile-item-title">خانه</span></a>
+            </div>
+            <!-- Navbar Buttom Fix -->
+
+            <div class="row">
+                <div class="col-xxl-3 col-xl-3 col-lg-4 hidden_md px-0">
+                    <div class="vertical_menu_User_panel">
+                        <section>
+                            <div class="Top_Information_User_Panel">
+                                <!-- <div class="Img_Profile_User_Panel">
+                                    <img src="./Image/avatar-4.jpg" alt="">
+                                </div> -->
+                                <div class="avatar-upload">
+                                    <div class="avatar-edit">
+                                        <input type='file' id="imageUpload" class="imageUploadMenu" accept=".png, .jpg, .jpeg" />
+                                        <label for="imageUpload" class="Lanel_imageUploadMenu"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                                          </svg></label>
+                                    </div>
+                                    <div class="avatar-preview">
+                                        <div id="imagePreview" style="background-image: url(./Image/transparent/avatar-removebg-preview.png);">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Part_Text_name_User">
+                                    <h6 class="Text_name_User">امیرمهدی باقری زاد</h6>
+                                </div>
+                            </div>
+                            <div class="vertical_menu_User_panel_Body">
+                                <ul class="Items_vertical_menu_User_panel">
+                                    <li class="">
+                                        <div class="Item_vertical_menu_User_panel">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-speedometer2" viewBox="0 0 16 16">
+                                                <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+                                                <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+                                              </svg>
+                                            <div><a href="#" class="Link_Item_vertical_menu_User_panel ">پیشخوان</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="Item_vertical_menu_User_panel">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                                              </svg>
+                                            <div><a href="#" class="Link_Item_vertical_menu_User_panel ">حساب کاربری</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="Item_vertical_menu_User_panel">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                                                <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
+                                              </svg>
+                                            <div><a href="#" class="Link_Item_vertical_menu_User_panel"> کیف پول من </a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="Item_vertical_menu_User_panel">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16">
+                                                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                                <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+                                              </svg>
+                                            <div><a href="#" class="Link_Item_vertical_menu_User_panel"> قالب های من </a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="Item_vertical_menu_User_panel">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                                              </svg>
+                                            <div><a href="#" class="Link_Item_vertical_menu_User_panel"> ویرایش اطلاعات شخصی </a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="Item_vertical_menu_User_panel">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                                                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                                              </svg>
+                                            <div><a href="#" class="Link_Item_vertical_menu_User_panel"> تغییر رمز عبور </a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="Item_vertical_menu_User_panel">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                              </svg>
+                                            <div><a href="# " class="Link_Item_vertical_menu_User_panel"> لیست علاقه مندی ها </a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="Item_vertical_menu_User_panel">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-ticket" viewBox="0 0 16 16">
+                                                <path d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5V6a.5.5 0 0 1-.5.5 1.5 1.5 0 0 0 0 3 .5.5 0 0 1 .5.5v1.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5V10a.5.5 0 0 1 .5-.5 1.5 1.5 0 1 0 0-3A.5.5 0 0 1 0 6V4.5ZM1.5 4a.5.5 0 0 0-.5.5v1.05a2.5 2.5 0 0 1 0 4.9v1.05a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-1.05a2.5 2.5 0 0 1 0-4.9V4.5a.5.5 0 0 0-.5-.5h-13Z"/>
+                                              </svg>
+                                            <div><a href="#" class="Link_Item_vertical_menu_User_panel"> تیکت ها </a></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="Active_User_panel">
+                                        <div class="Item_vertical_menu_User_panel">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                                                <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                                              </svg>
+                                            <div><a href="#" class="Link_Item_vertical_menu_User_panel Active_User_panel_text"> فروشنده شو </a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="Item_vertical_menu_User_panel">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                                                <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                                              </svg>
+                                            <div><a href="#" class="Link_Item_vertical_menu_User_panel">  خروج از حساب کاربری </a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="col-xxl-9 col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                        <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                            <section>
+                                <div class="Box_Edit_Information_panel_User">
+                                    <div class="border-bottom mb-3 d-flex justify-content-between align-items-center">
+                                        <h5>ارتقا به فروشنده</h5>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label label_Inp_Page_user_panel_Seller">نام<span class="text-danger">*</span></label>
+                                                <input type="text" class="form-control Inp_Page_user_panel_Seller" id="exampleFormControlInput1" placeholder="امیرمهدی">
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput2" class="form-label label_Inp_Page_user_panel_Seller">نام خانوادگی<span class="text-danger">*</span></label>
+                                                <input type="text" class="form-control Inp_Page_user_panel_Seller" id="exampleFormControlInput2" placeholder="باقری زاد">
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="mb-3">
+
+                                                <label for="exampleFormControlInput3" class="form-label label_Inp_Page_user_panel_Seller">شماره موبایل<span class="text-danger">*</span></label>
+                                                <input type="text" class="form-control Inp_Page_user_panel_Seller" onkeypress="if ( isNaN(this.value + String.fromCharCode(event.keyCode) )) return false;" id="exampleFormControlInput3" maxlength="11 " placeholder="09107566026 ">
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                                            <div class="mb-3 ">
+                                                <label for="exampleFormControlInput4" class="form-label label_Inp_Page_user_panel_Seller">کدملی<span class="text-danger">*</span></label>
+                                                <input type="text " class="form-control Inp_Page_user_panel_Seller" onkeypress="if ( isNaN(this.value + String.fromCharCode(event.keyCode) )) return false;" id="exampleFormControlInput4" maxlength="10 " placeholder="0372097588 ">
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                                            <div class="mb-3 ">
+                                                <label for="exampleFormControlInput5" class="form-label label_Inp_Page_user_panel_Seller">نام صاحب حساب<span class="text-danger">*</span></label>
+                                                <input type="text " class="form-control Inp_Page_user_panel_Seller " id="exampleFormControlInput5" placeholder="امیرمهدی ">
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                                            <div class="mb-3 ">
+                                                <label for="exampleFormControlInput6" class="form-label label_Inp_Page_user_panel_Seller">نام بانک<span class="text-danger">*</span></label>
+                                                <input type="text " class="form-control Inp_Page_user_panel_Seller " id="exampleFormControlInput6" placeholder="ملی ">
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                                            <div class="mb-3 ">
+                                                <label for="exampleFormControlInput7" class="form-label label_Inp_Page_user_panel_Seller">شماره حساب<span class="text-danger">*</span></label>
+                                                <input type="text " class="form-control Inp_Page_user_panel_Seller " data-masked=" " data-inputmask=" 'mask': '9999999999999' " id="exampleFormControlInput7" placeholder="0203726769006 ">
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                                            <div class="mb-3 ">
+                                                <label for="exampleFormControlInput8" class="form-label label_Inp_Page_user_panel_Seller">شماره کارت<span class="text-danger">*</span></label>
+                                                <input type="text " class="form-control Inp_Page_user_panel_Seller " data-masked=" " data-inputmask=" 'mask': '9999-9999-9999-9999' " id="exampleFormControlInput8" placeholder="5859-8310-3638-6638 ">
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                                            <div class="mb-3 ">
+                                                <label for="exampleFormControlInput9" class="form-label label_Inp_Page_user_panel_Seller">شماره شبا<span class="text-danger">*</span></label>
+                                                <input type="text " class="form-control Inp_Page_user_panel_Seller " data-masked=" " data-inputmask=" 'mask': 'IR99-9999-9999-9999-9999-9999-99 ' " id="exampleFormControlInput9" placeholder="IR-49-062-000000-0203726769006 ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                            <section>
+                                <div class="Box_Edit_Information_panel_User">
+                                    <label for="input-file-now">تصویر کارت ملی</label>
+                                    <input type="file" id="input-file-now" class="dropify" />
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-body">
+        <div class="footer-top-body">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12"
+              >
+                <div class="row">
+                  <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12"
+                  >
+                    <div class="footer-list-items">
+                      <span class="footer-list-items-head">راهنمای خرید</span>
+                      <a href="" class="footer-list-items-link">
+                        <i class="fa fa-angle-left footer-list-items-icon"></i>
+                        <span class="footer-list-items-text">نحوه ثبت سفارش</span>
+                      </a>
+                      <a href="" class="footer-list-items-link">
+                        <i class="fa fa-angle-left footer-list-items-icon"></i>
+                        <span class="footer-list-items-text">روش های پرداخت</span>
+                      </a>
+                      <a href="" class="footer-list-items-link">
+                        <i class="fa fa-angle-left footer-list-items-icon"></i>
+                        <span class="footer-list-items-text">اشتراک ویژه</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12"
+                  >
+                    <div class="footer-list-items">
+                      <span class="footer-list-items-head">راهنمای خرید</span>
+                      <a href="" class="footer-list-items-link">
+                        <i class="fa fa-angle-left footer-list-items-icon"></i>
+                        <span class="footer-list-items-text">نحوه ثبت سفارش</span>
+                      </a>
+                      <a href="" class="footer-list-items-link">
+                        <i class="fa fa-angle-left footer-list-items-icon"></i>
+                        <span class="footer-list-items-text">روش های پرداخت</span>
+                      </a>
+                      <a href="" class="footer-list-items-link">
+                        <i class="fa fa-angle-left footer-list-items-icon"></i>
+                        <span class="footer-list-items-text">اشتراک ویژه</span>
+                      </a>
+                      <a href="" class="footer-list-items-link">
+                        <i class="fa fa-angle-left footer-list-items-icon"></i>
+                        <span class="footer-list-items-text">اشتراک ویژه</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12"
+                  >
+                    <div class="footer-list-items">
+                      <span class="footer-list-items-head">راهنمای خرید</span>
+                      <a href="" class="footer-list-items-link">
+                        <i class="fa fa-angle-left footer-list-items-icon"></i>
+                        <span class="footer-list-items-text">نحوه ثبت سفارش</span>
+                      </a>
+                      <a href="" class="footer-list-items-link">
+                        <i class="fa fa-angle-left footer-list-items-icon"></i>
+                        <span class="footer-list-items-text">روش های پرداخت</span>
+                      </a>
+                      <a href="" class="footer-list-items-link">
+                        <i class="fa fa-angle-left footer-list-items-icon"></i>
+                        <span class="footer-list-items-text">اشتراک ویژه</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12"
+              >
+                <div class="row">
+                  <div
+                    class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12"
+                  >
+                    <div class="footer-items-social-media">
+                      <h5 class="footer-social-media-head-item">
+                        ما را در شبکه های اجتماعی دنبال کنید:
+                      </h5>
+                      <ul class="footer-social-media-link-items">
+                        <li class="icon-box-footer-social-media telegram">
+                          <div
+                            class="tooltip-footer tooltip-telegram-footer-social-media"
+                          >
+                            Telegram
+                          </div>
+                          <i
+                            class="fab fa-telegram-plane icon-telegram-footer-social-media"
+                          ></i>
+                        </li>
+                        <li class="icon-box-footer-social-media instagram">
+                          <div
+                            class="tooltip-footer tooltip-instagram-footer-social-media"
+                          >
+                            Instagram
+                          </div>
+                          <i
+                            class="fab fa-instagram icon-instagram-footer-social-media"
+                          ></i>
+                        </li>
+                        <li class="icon-box-footer-social-media twitter">
+                          <div
+                            class="tooltip-footer tooltip-twitter-footer-social-media"
+                          >
+                            Twitter
+                          </div>
+                          <i
+                            class="fab fa-twitter icon-twitter-footer-social-media"
+                          ></i>
+                        </li>
+                        <li class="icon-box-footer-social-media linkedin">
+                          <div
+                            class="tooltip-footer tooltip-linkedin-footer-social-media"
+                          >
+                            Linkedin
+                          </div>
+                          <i
+                            class="fab fa-linkedin-in icon-linkedin-footer-social-media"
+                          ></i>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12"
+                  >
+                    <div class="footer-items-news-letters">
+                      <h5 class="footer-news-letters-head">
+                        بهترین ها را در ایمیل خود داشته باشید:
+                      </h5>
+                      <div class="footer-news-letters-search">
+                        <input
+                          class="form-control footer-news-letters-search-input"
+                          type="email"
+                          placeholder="ایمیل خود را وارد کنید"
+                          aria-label=".form-control-lg example"
+                        />
+  
+                        <a href="" class="footer-news-letters-search-btn"
+                          >عضویت</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-main-body">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12"
+              >
+                <div class="footer-main-body-address">
+                  <div class="footer-main-address-items">
+                    <i class="fas fa-phone-alt footer-main-address-item-icon"></i>
+                    <span class="footer-main-address-item-txt">شماره تماس:</span>
+                    <span class="footer-main-address-item-num">021-73730319</span>
+                  </div>
+                  <div class="footer-main-address-items">
+                    <i class="far fa-envelope footer-main-address-item-icon"></i>
+                    <span class="footer-main-address-item-txt">آدرس ایمیل:</span>
+                    <span class="footer-main-address-item-num"
+                      >info@themeshop.ir</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12"
+              >
+                <div class="footer-main-body-site-link-items">
+                  <a href="" class="footer-main-body-site-link">
+                    <i class="fa fa-circle link-circle-icon"></i>
+                    <span class="footer-main-body-site-link-txt">تاپ لرن</span>
+                  </a>
+                  <a href="" class="footer-main-body-site-link">
+                    <i class="fa fa-circle link-circle-icon"></i>
+                    <span class="footer-main-body-site-link-txt"
+                      >آکادمی برنامه نویسان</span
+                    >
+                  </a>
+                  <a href="" class="footer-main-body-site-link">
+                    <i class="fa fa-circle link-circle-icon"></i>
+                    <span class="footer-main-body-site-link-txt">آگهی دونی</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-xxl-1 col-xl-1 col-lg-2 col-md-2 col-sm-2 col-12">
+                <div class="footer-bottom-body-logo">
+                  <a href="./">
+                    <div class="footer-bottom-logo-img">
+                      <img src="./Image/Logo/logo.png" alt="Tem-Shop" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xxl-7 col-xl-7 col-lg-6 col-md-10 col-sm-10 col-12">
+                <div class="footer-bottom-body-info">
+                  <span class="footer-bottom-body-info-text">
+                    ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                    استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                    مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                    تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                    کاربردی می باشد.
+                  </span>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="footer-bottom-body-enamad">
+                  <a href="" class="footer-bottom-img-enamad">
+                    <img
+                      src="./Image/pic1.png"
+                      alt="enamad"
+                      width="100%"
+                      height="100%"
+                    />
+                  </a>
+                  <a href="" class="footer-bottom-img-enamad">
+                    <img
+                      src="./Image/pic2.png"
+                      alt="enamad"
+                      width="100%"
+                      height="100%"
+                    />
+                  </a>
+                  <a href="" class="footer-bottom-img-enamad">
+                    <img
+                      src="./Image/pic3.png"
+                      alt="enamad"
+                      width="100%"
+                      height="100%"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-final-text">
+          <span class="footer-final-text-txt">
+            تمامی حقوق مادی و معنوی این سایت متعلق به
+            <a href="" class="footer-final-text-bold">" تم شاپ "</a> می باشد .
+          </span>
+        </div>
+      </footer>
+    <!-- Start_JS_Link -->
+    <script src="./js/jquery-3.6.0.min.js "></script>
+
+    <script src="./js/bootstrap.bundle.min.js "></script>
+    <script src="./js/all.min.js "></script>
+    <script src="./js/mdb.min.js "></script>
+    <script src="./js/owl.carousel.min.js "></script>
+    <script src="./js/aos.js "></script>
+    <script src="./js/swiper-bundle.min.js "></script>
+    <script src="./js/jquery.inputmask.bundle.min.js "></script>
+    <script src="./js/dropify.min.js"></script>
+    <!-- JS_Handwritten -->
+    <script src="./js/Script.js "></script>
+    <script src="./js/Script_userPanel.js"></script>
+    <script>
+        $('.dropify').dropify({
+            messages: {
+                'default': 'عکس کارت ملی را آپلود کنید',
+                'replace': 'Drag and drop or click to replace',
+                'remove': 'Remove',
+                'error': 'Ooops, something wrong happended.'
+
+            }
+        });
+        $(":input ").inputmask();
+    </script>
+</body>
+
+</html>
